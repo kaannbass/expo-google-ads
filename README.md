@@ -1,50 +1,27 @@
-# Welcome to your Expo app 👋
+# Google AdMob Integration with React Native Expo
+This project demonstrates how to integrate Google AdMob into a React Native Expo app. It includes step-by-step instructions for setting up an Expo project, installing the necessary packages, configuring AdMob, and implementing banner and interstitial ads.
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Features:
+- AdMob integration for displaying ads in React Native Expo apps
+- Banner and interstitial ads implementation
+- Support for Android and iOS
+- Ad testing in development mode using Expo
+  
+## Technologies Used:
+- React Native
+- Expo
+- React Native Google Mobile Ads
+  
+## Setup:
+- Clone the repository.
+- Run **npm install** to install the required dependencies.
+- Add your Google AdMob App IDs in the **app.json** file.
+- Run **npx expo prebuild** to generate Android and iOS folders.
+- Build and run the app using **npx expo run:android** or **npx expo run:ios**.
+- 
+## Note:
+Ensure you have a Google AdMob account and have created your ad units before proceeding.
 
-## Get started
-
-1. Install dependencies
-
-   ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-    npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+![image1](https://github.com/user-attachments/assets/95c7acee-dd10-4181-af9f-25f917228d95)
+![image2](https://github.com/user-attachments/assets/eab0f363-8ce0-451f-9147-bd5307be160f)
+![image3](https://github.com/user-attachments/assets/993bb77c-c48b-488a-b410-0474cd3770b3)
